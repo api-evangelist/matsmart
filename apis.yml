@@ -1,8 +1,15 @@
 aid: matsmart
 name: Matsmart
-description: 'Matsmart is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Matsmart (operating internationally as Motatos) is a Swedish e-commerce
+  company that fights food waste by selling surplus, short-dated, and overstocked
+  groceries and household goods at a discount, with average savings of up to 50%.
+  Its catalog spans pantry staples, beverages, snacks, candy, baby food, health and
+  beauty, cleaning supplies, pet food, and non-food surplus, sourced from manufacturers
+  and retailers and shipped across Sweden and other European markets via partners
+  including Bring, Airmee, and PostNord. The company runs a consumer web storefront
+  and iOS/Android apps. It was surfaced as a portfolio company of Northzone and added
+  to the API Evangelist network; it publishes no public developer API or documentation,
+  so this profile captures its public web, security, and identity surface.'
 url: https://raw.githubusercontent.com/api-evangelist/matsmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://www.matsmart.se/favicon.ico
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- E-Commerce
+- Retail
+- Grocery
+- Food Waste
+- Sustainability
+- Sweden
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.matsmart.se
+- type: TermsOfService
+  url: https://www.matsmart.se/info/allmanna-villkor
+- type: PrivacyPolicy
+  url: https://www.matsmart.se/info/integritetspolicy
+- type: Support
+  url: https://www.matsmart.se/info/kundservice
+- type: SecurityTxt
+  url: well-known/matsmart-security.txt
+- type: WellKnown
+  url: well-known/matsmart-well-known.yml
+- type: Security
+  url: security/matsmart-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/matsmart-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/matsmart-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
