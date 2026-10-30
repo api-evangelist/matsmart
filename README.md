@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Matsmart is a company surfaced as a portfolio company of northzone and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Matsmart (operating internationally as Motatos) is a Swedish e-commerce company that fights food waste by selling surplus, short-dated, and overstocked groceries and household goods at a discount, with average savings of up to 50%. Its catalog spans pantry staples, beverages, snacks, candy, baby food, health and beauty, cleaning supplies, pet food, and non-food surplus, sourced from manufacturers and retailers and shipped across Sweden and other European markets via partners including Bring, Airmee, and PostNord. The company runs a consumer web storefront and iOS/Android apps. It was surfaced as a portfolio company of Northzone and added to the API Evangelist network; it publishes no public developer API or documentation, so this profile captures its public web, security, and identity surface.
 
-Backed by: northzone — https://www.matsmart.se
+**Areas:** Company · Consumer · E-Commerce · Retail · Grocery · Food Waste · Sustainability · Sweden
+
+## Matsmart on APIs.io
+
+Everything profiled for Matsmart is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/matsmart/](https://apis.io/providers/matsmart/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Matsmart Domain Security](https://apis.io/security/matsmart/matsmart-domain-security/)
+- [Matsmart Vulnerability Disclosure](https://apis.io/security/matsmart/matsmart-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.matsmart.se)
+- [Support](https://www.matsmart.se/info/kundservice)
+- [Blog](https://www.matsmart.se/stories)
+- [Terms of service](https://www.matsmart.se/info/allmanna-villkor)
+- [Privacy policy](https://www.matsmart.se/info/integritetspolicy)
+
+## API Evangelist rating
+
+**Kin Score 12.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/matsmart/](https://apis.io/providers/matsmart/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Matsmart: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/matsmart/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
